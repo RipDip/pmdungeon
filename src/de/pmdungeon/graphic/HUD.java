@@ -135,14 +135,14 @@ public class HUD extends Stage {
     /**
      * Draws a given text on the screen.
      *
-     * @param text        text to draw
-     * @param fontPath    font to use
-     * @param color       color to use
-     * @param size        font size to use
-     * @param width       width of the text box
-     * @param height      height of the text box
-     * @param x           x-position in pixel
-     * @param y           y-position in pixel
+     * @param text     text to draw
+     * @param fontPath font to use
+     * @param color    color to use
+     * @param size     font size to use
+     * @param width    width of the text box
+     * @param height   height of the text box
+     * @param x        x-position in pixel
+     * @param y        y-position in pixel
      * @return Label (use this to alter text or remove the text later)
      */
     public Label drawText(String text, String fontPath, Color color, int size, int width, int height, int x, int y) {
